@@ -1,0 +1,1 @@
+../../../GDTAd/SDK/include/GDTRewardVideoAd.h

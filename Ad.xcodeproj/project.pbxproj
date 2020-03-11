@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		379712E5CF1C185D79520E53 /* libPods-Ad.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1AA451647A6124BD60E84C5 /* libPods-Ad.a */; };
 		B0A6EAA82418B34600D6A7C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A6EAA72418B34600D6A7C0 /* AppDelegate.m */; };
 		B0A6EAAB2418B34600D6A7C0 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A6EAAA2418B34600D6A7C0 /* SceneDelegate.m */; };
 		B0A6EAAE2418B34600D6A7C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A6EAAD2418B34600D6A7C0 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 		B0A6EAB92418B34B00D6A7C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A6EAB82418B34B00D6A7C0 /* main.m */; };
 		B0A6EAC32418B34B00D6A7C0 /* AdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A6EAC22418B34B00D6A7C0 /* AdTests.m */; };
 		B0A6EACE2418B34B00D6A7C0 /* AdUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A6EACD2418B34B00D6A7C0 /* AdUITests.m */; };
+		B0A6EAE02418C1F500D6A7C0 /* RewardAdWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A6EADF2418C1F500D6A7C0 /* RewardAdWrapper.m */; };
+		B0A6EAED2418EAF600D6A7C0 /* AdManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A6EAEC2418EAF600D6A7C0 /* AdManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		64B2A95A950E5C94F90B6980 /* Pods-Ad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ad.release.xcconfig"; path = "Target Support Files/Pods-Ad/Pods-Ad.release.xcconfig"; sourceTree = "<group>"; };
+		AD1AE810BCC208C9318C36AB /* Pods-Ad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ad.debug.xcconfig"; path = "Target Support Files/Pods-Ad/Pods-Ad.debug.xcconfig"; sourceTree = "<group>"; };
 		B0A6EAA32418B34600D6A7C0 /* Ad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0A6EAA62418B34600D6A7C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B0A6EAA72418B34600D6A7C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +59,11 @@
 		B0A6EAC92418B34B00D6A7C0 /* AdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0A6EACD2418B34B00D6A7C0 /* AdUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdUITests.m; sourceTree = "<group>"; };
 		B0A6EACF2418B34B00D6A7C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0A6EADE2418C1F500D6A7C0 /* RewardAdWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RewardAdWrapper.h; sourceTree = "<group>"; };
+		B0A6EADF2418C1F500D6A7C0 /* RewardAdWrapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RewardAdWrapper.m; sourceTree = "<group>"; };
+		B0A6EAEB2418EAF600D6A7C0 /* AdManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdManager.h; sourceTree = "<group>"; };
+		B0A6EAEC2418EAF600D6A7C0 /* AdManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdManager.m; sourceTree = "<group>"; };
+		B1AA451647A6124BD60E84C5 /* libPods-Ad.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Ad.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				379712E5CF1C185D79520E53 /* libPods-Ad.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +92,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47DFC548E3EEC52C732EE6EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1AA451647A6124BD60E84C5 /* libPods-Ad.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B0A6EA9A2418B34600D6A7C0 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +107,8 @@
 				B0A6EAC12418B34B00D6A7C0 /* AdTests */,
 				B0A6EACC2418B34B00D6A7C0 /* AdUITests */,
 				B0A6EAA42418B34600D6A7C0 /* Products */,
+				DE8671A0C9401BA9D047D2CE /* Pods */,
+				47DFC548E3EEC52C732EE6EB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +131,10 @@
 				B0A6EAAA2418B34600D6A7C0 /* SceneDelegate.m */,
 				B0A6EAAC2418B34600D6A7C0 /* ViewController.h */,
 				B0A6EAAD2418B34600D6A7C0 /* ViewController.m */,
+				B0A6EADE2418C1F500D6A7C0 /* RewardAdWrapper.h */,
+				B0A6EADF2418C1F500D6A7C0 /* RewardAdWrapper.m */,
+				B0A6EAEB2418EAF600D6A7C0 /* AdManager.h */,
+				B0A6EAEC2418EAF600D6A7C0 /* AdManager.m */,
 				B0A6EAAF2418B34600D6A7C0 /* Main.storyboard */,
 				B0A6EAB22418B34B00D6A7C0 /* Assets.xcassets */,
 				B0A6EAB42418B34B00D6A7C0 /* LaunchScreen.storyboard */,
@@ -137,6 +162,15 @@
 			path = AdUITests;
 			sourceTree = "<group>";
 		};
+		DE8671A0C9401BA9D047D2CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD1AE810BCC208C9318C36AB /* Pods-Ad.debug.xcconfig */,
+				64B2A95A950E5C94F90B6980 /* Pods-Ad.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0A6EAD22418B34B00D6A7C0 /* Build configuration list for PBXNativeTarget "Ad" */;
 			buildPhases = (
+				811D7F492D34129AD1217BFC /* [CP] Check Pods Manifest.lock */,
 				B0A6EA9F2418B34600D6A7C0 /* Sources */,
 				B0A6EAA02418B34600D6A7C0 /* Frameworks */,
 				B0A6EAA12418B34600D6A7C0 /* Resources */,
+				022F1C5429FE77893B7426C6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -262,6 +298,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		022F1C5429FE77893B7426C6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ad/Pods-Ad-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ad/Pods-Ad-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ad/Pods-Ad-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		811D7F492D34129AD1217BFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ad-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B0A6EA9F2418B34600D6A7C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -269,7 +347,9 @@
 			files = (
 				B0A6EAAE2418B34600D6A7C0 /* ViewController.m in Sources */,
 				B0A6EAA82418B34600D6A7C0 /* AppDelegate.m in Sources */,
+				B0A6EAED2418EAF600D6A7C0 /* AdManager.m in Sources */,
 				B0A6EAB92418B34B00D6A7C0 /* main.m in Sources */,
+				B0A6EAE02418C1F500D6A7C0 /* RewardAdWrapper.m in Sources */,
 				B0A6EAAB2418B34600D6A7C0 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +517,7 @@
 		};
 		B0A6EAD32418B34B00D6A7C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD1AE810BCC208C9318C36AB /* Pods-Ad.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -453,6 +534,7 @@
 		};
 		B0A6EAD42418B34B00D6A7C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64B2A95A950E5C94F90B6980 /* Pods-Ad.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

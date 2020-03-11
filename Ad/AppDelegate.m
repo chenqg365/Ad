@@ -10,6 +10,8 @@
  */
 
 #import "AppDelegate.h"
+#import "AdManager.h"
+#import <BUAdSDK/BUAdSDKManager.h>
 
 @interface AppDelegate ()
 
@@ -20,6 +22,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [BUAdSDKManager setAppID:[AdManager buAdAppKey]];
     return YES;
 }
 

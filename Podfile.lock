@@ -1,0 +1,21 @@
+PODS:
+  - BuAd (1.0)
+  - GDTAd (4.8.7)
+
+DEPENDENCIES:
+  - BuAd
+  - GDTAd
+
+SPEC REPOS:
+  https://github.com/chenqg365/HengPodSpec.git:
+    - BuAd
+  https://github.com/cocoapods/specs.git:
+    - GDTAd
+
+SPEC CHECKSUMS:
+  BuAd: 097ddea461c8bbafb1c9ec7a0524d43f47363a54
+  GDTAd: 49b429abeead0b44d3fdc10ff9c444aa9940b4b3
+
+PODFILE CHECKSUM: 0a1c427bd3b1989db07a03cf6e5053bd4a85478c
+
+COCOAPODS: 1.7.5
